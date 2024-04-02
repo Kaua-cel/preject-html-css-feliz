@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6262dd;
+    border-bottom: 10px solid black;
+    padding: 10px 20px;
+}
+nav{
+    text-align: right;
+    /* o justify é para justicar e organizar todo o texto, mesmo se a tela diminuir ou aumentar */
+}
+a{
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: "Fira Code";
+    /* Weight=peso */
+    font-weight: 500;  
+    text-decoration: none;
+    margin-right: 30px;
+}
+#button{
+    display: inline-block;
+    background-color: #30336b ;
+    /* a tag "a" vem com a configuração inline por padrão, e para podermos editar o botão temos que mudar para inline-block */
+    /* height é a altura */
+    padding: 18px 20px;
+    /* left: esquerdo, right: direito */
+    box-shadow: 5px 5px 0 black;
+    /* size: tamanho */
+    /* display muda o comportamento da linha, de uma caixa invisível que está presente nos sites */
+    /* display inline-block pega somente o contéudo já o inline pega toda a caixa/linha. Existe o contéudo e caixa(tag) */
+    margin-right: 0;
+}
+
+a::before{
+    content:"" ;
+    background-color: #95afc0;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+#button:hover{
+    background-color: #eb4d4b ;
+    transform: scale(1.08);
+    transition: transform 99ms linear ;
+}
