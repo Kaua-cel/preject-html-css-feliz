@@ -7,24 +7,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+<title>Curso-HTML E CSS</title>
 
     <link rel="stylesheet" href="/components/title.css">
-    
-    <title>Curso-HTML E CSS</title>
     <link rel="stylesheet" href="/CSS/reset.css">
     <link rel="stylesheet" href="CSS/style.css"/>
     <link rel="stylesheet" href="/components/subtitle.css">
     <link rel="stylesheet" href="/components/box.css">
+    <link rel="stylesheet" href="/components/button.css">
+    <link rel="stylesheet" href="/components/action.css">
+    <link rel="stylesheet" href="/components/header.css">
 <!-- esse sinal: >, serve para dizer que algo está dentro. Já esse: +, diz que algo é irmão, ou seja está ao lado e não dentro! -->
 <body>
-    <header>
+    <header class="header">
         <img src="/img/icons8-samurai-60.png" alt="logo-curso">
         <nav>
-            <a href="" lang="en">Skills</a>
-            <a href="">Projetos</a>
-            <a href="">Sobre</a>
-            <a href="">contatos</a>
-            <a id="button" href="" lang="en">Dowload</a>
+            <a class="action" href="" lang="en">Skills</a>
+            <a class="action" href="">Projetos</a>
+            <a class="action" href="">Sobre</a>
+            <a class="action" href="">contatos</a>
+            <a class="button" href="" lang="en">Dowload</a>
         </nav>
 <!-- Os comados a{} são usados para fazer toda a tag com o contéudo dentro. Já o comando [] é usado junto ao a{} para atribuir alguma coisa! -->
     </header>
@@ -34,15 +37,13 @@
 
 <!-- O id é para algo único -->
 
-            <div id="box">
-                <h1>Kauã Neres</h1>
-                <h2>FrontEnd Developer<h2>
+            <div class="box">
+                <h1 class="title">Kauã Neres</h1>
+                <h2 class="subtitle">FrontEnd Developer<h2>
             </div>
 
-            <div id="buttonorg">
-                <a class="button2" href="">Dowload</a>
-                <a class="button2" href="">Contatos</a>
-            </div>
-
+        <a class="button" href="" lang="en">Dowload</a>
+        <a class="button" href="">Contatos</a>
+        <button class="button">coiso</button>
     </body>
 </html>
