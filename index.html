@@ -10,14 +10,15 @@
     
 <title>Curso-HTML E CSS</title>
 
-    <link rel="stylesheet" href="/components/title.css">
     <link rel="stylesheet" href="/CSS/reset.css">
-    <link rel="stylesheet" href="CSS/style.css"/>
-    <link rel="stylesheet" href="/components/subtitle.css">
+    <link rel="stylesheet" href="/components/header.css">
+    <link rel="stylesheet" href="/components/banner.css">
     <link rel="stylesheet" href="/components/box.css">
+    <link rel="stylesheet" href="/components/title.css">
+    <link rel="stylesheet" href="/components/subtitle.css">
     <link rel="stylesheet" href="/components/button.css">
     <link rel="stylesheet" href="/components/action.css">
-    <link rel="stylesheet" href="/components/header.css">
+    <link rel="stylesheet" href="CSS/style.css"/>
 <!-- esse sinal: >, serve para dizer que algo está dentro. Já esse: +, diz que algo é irmão, ou seja está ao lado e não dentro! -->
 <body>
     <header class="header">
@@ -29,21 +30,19 @@
             <a class="action" href="">contatos</a>
             <a class="button" href="" lang="en">Dowload</a>
         </nav>
-<!-- Os comados a{} são usados para fazer toda a tag com o contéudo dentro. Já o comando [] é usado junto ao a{} para atribuir alguma coisa! -->
     </header>
-<!-- html é conteúdo usando tags para ser semântioc(Expressivo, se comunica com navegador- mediador), estrutura- tags que demarcam apenas a estrutura(esqueleto) -->
-
-<!-- CSS é a parte visual/animação -->
-
-<!-- O id é para algo único -->
-
-            <div class="box">
-                <h1 class="title">Kauã Neres</h1>
-                <h2 class="subtitle">FrontEnd Developer<h2>
+        <section class="banner">
+            <div class="wrapper">
+                <div class="box">
+                     <h1 class="title">Kauã Neres</h1>
+                    <h2 class="subtitle">FrontEnd Developer<h2>
+                </div>
+                <div class="navigation">
+                    <a class="button" href="" lang="en">Dowload</a>
+                    <a class="button" href="">Contatos</a>
+                </div>
             </div>
+        </section>
 
-        <a class="button" href="" lang="en">Dowload</a>
-        <a class="button" href="">Contatos</a>
-        <button class="button">coiso</button>
     </body>
 </html>
