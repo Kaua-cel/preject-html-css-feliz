@@ -10,3 +10,10 @@
     margin-bottom: 60px;
 }
 
+.section.-bgblack{
+    background-color: black;
+}
+
+.section.-bdfirst{
+    border-color: #F25A70;
+}
